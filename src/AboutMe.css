@@ -1,0 +1,225 @@
+
+/* Minimal css reset */
+html {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles */
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+
+/* Custom dynamic css */
+
+/* green white */
+.green-white {
+	background: #43A047;
+	color: #FAFAFA;
+}
+
+.icons-social-gw a {
+	color: #FAFAFA;
+}
+
+.icons-social-gw a svg path{
+	fill: #FAFAFA;
+}
+
+/* grey white */
+.grey-white {
+	background: #485564;
+	color: #FAFAFA;
+}
+
+.icons-social-gw1 a {
+	color: #FAFAFA;
+}
+
+.icons-social-gw1 a svg path{
+	fill: #FAFAFA;
+}
+
+/* indigo white */
+.indigo-white {
+	background: #303F9F;
+	color: #FAFAFA;
+}
+
+.icons-social-iw a {
+	color: #FAFAFA;
+}
+
+.icons-social-iw a svg path{
+	fill: #FAFAFA;
+}
+
+/* red white */
+.red-white {
+    background: #AF3D4E;
+    color: #FAFAFA;
+}
+
+.icons-social-rw a {
+	color: #FAFAFA;
+}
+
+.icons-social-rw a svg path{
+	fill: #FAFAFA;
+}
+
+/* white blue */
+.white-blue {
+	background: #FAFAFA;
+	color: #0277BD;
+}
+
+.icons-social-wb a {
+	color: #0277BD;
+}
+
+.icons-social-wb a svg path{
+	fill: #0277BD;
+}
+
+/* white grey */
+.white-grey {
+	background: #EDEDED;
+	color: #4B5658;
+}
+
+.icons-social-wg i a {
+	color: #4B5658;
+}
+
+.icons-social-wg i a svg path{
+	fill: #4B5658;
+}
+
+/* white indigo */
+.white-indigo {
+	background: #E8EAF6;
+	color: #303F9F;
+}
+
+.icons-social-wi a {
+	color: #303F9F;
+}
+
+.icons-social-wi a svg path{
+	fill: #303F9F;
+}
+
+/* white red */
+.white-red {
+	background: #EDEDED;
+	color: #AF3D4E;
+}
+
+.icons-social-wr a {
+	color: #AF3D4E;
+}
+
+.icons-social-wr a svg path{
+	fill: #AF3D4E;
+}
+
+/* yellow black */
+.yellow-black {
+	background: #FFEB3B;
+	color: #1E1E1E;
+}
+
+.icons-social-yb a {
+	color: #1E1E1E;
+}
+
+.icons-social-yb a svg path{
+	fill: #1E1E1E;
+}

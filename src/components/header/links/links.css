@@ -1,0 +1,32 @@
+.header-links {
+  font-family: Lato;
+  font-size: 20px;
+  display: inline-block;
+  padding-bottom: 23px;
+  margin: 7px 30px 0;
+  text-decoration: none;
+  color: #515e6d;
+  font-weight: bold;
+}
+
+.active {
+  color: #0078bc;
+  border-bottom: 2px solid #0078bc;
+}
+
+.disabled {
+  cursor: pointer;
+  color: #9fa9ba;
+}
+
+@media (max-width: 900px) {
+  .header-links {
+    display: block;
+    margin: 0;
+    padding: 15px 0;
+  }
+
+  .active {
+    border-bottom: none;
+  }
+}
