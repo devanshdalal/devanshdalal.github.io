@@ -39,7 +39,7 @@ export async function getRepositoriesCached() {
     fetchedRepos = fetchedRepos
       .filter((repo) => repo.fork === false && repo.description)
       .map((repo) => setRepoLanguage(repo));
-    lscache.set('repos', fetchedRepos, LSCACHE_TIMEOUT)
+    lscache.set('repos', fetchedRepos, LSCACHE_TIMEOUT/* minutes */)
   }
   return fetchedRepos
 }
