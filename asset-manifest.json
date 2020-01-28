@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db631142.chunk.css",
+    "main.js": "/static/js/main.3b8e071e.chunk.js",
+    "main.js.map": "/static/js/main.3b8e071e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.008e8ac0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.008e8ac0.js.map",
+    "static/js/2.0d8590f7.chunk.js": "/static/js/2.0d8590f7.chunk.js",
+    "static/js/2.0d8590f7.chunk.js.map": "/static/js/2.0d8590f7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0298285e8941bb30ebb1786f7e0af3b9.js": "/precache-manifest.0298285e8941bb30ebb1786f7e0af3b9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.db631142.chunk.css.map": "/static/css/main.db631142.chunk.css.map",
+    "static/js/2.0d8590f7.chunk.js.LICENSE": "/static/js/2.0d8590f7.chunk.js.LICENSE",
+    "static/media/cpp-icon.png": "/static/media/cpp-icon.a7ff7968.png",
+    "static/media/go-icon.png": "/static/media/go-icon.a4a03c16.png",
+    "static/media/repo-card-categores.css": "/static/media/python-icon.1ebd114c.png",
+    "static/media/java-icon.png": "/static/media/java-icon.02ed4e6e.png",
+    "static/media/jupyter-icon.png": "/static/media/jupyter-icon.ccf5b048.png",
+    "static/media/php-icon.png": "/static/media/php-icon.7d0f0b2c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.008e8ac0.js",
+    "static/js/2.0d8590f7.chunk.js",
+    "static/css/main.db631142.chunk.css",
+    "static/js/main.3b8e071e.chunk.js"
+  ]
+}
