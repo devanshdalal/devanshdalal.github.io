@@ -2,13 +2,11 @@
 
 ## Getting Started
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/33ba1eed7e1e438cbf3a1a277140a7a8)](https://app.codacy.com/app/KleoPetroff/react-github-portfolio?utm_source=github.com&utm_medium=referral&utm_content=KleoPetroff/react-github-portfolio&utm_campaign=Badge_Grade_Dashboard)
-
 The project uses the Github API and utilizes the browser's localStorage for persistence. The following instructions will give you a copy of the project on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-Make sure you have NodeJS (v9.0 or higher) and npm (v5.6.0 or higher) installed.
+Make sure you have NodeJS (v13.0.1 or higher) and npm (v6.12.0 or higher) installed.
 
 ### How to build
 
@@ -19,17 +17,6 @@ Make sure you have NodeJS (v9.0 or higher) and npm (v5.6.0 or higher) installed.
 ### Prettier and Precommit Hooks
 
 Prettier is used for automatic code formatting. It's executed on every commit using a precommit hook.
-
-## Roadmap
-
-- [ ] Add tests
-- [ ] Integrate Typescript
-- [ ] **_Current Project page_** - a page with a detailed information of my current work in progress project
-- [ ] **_Issues Page_** - a social page with all open issues of all my projects listed, where people can give suggestions and propose solutions
-
-## Deployment
-
-The continuous deployment is done using Netlify.
 
 ## Contributing
 

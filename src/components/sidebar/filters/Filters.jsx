@@ -6,7 +6,7 @@ const SORT_CATEGORIES = ['language', 'stargazers_count', 'created_at'];
 const ORDER_CATEGORIES = ['asc', 'desc'];
 
 const Sorting = ({ onSortChange }) => {
-  const [sortIndex, setSortIndex] = useState(1);
+  const [sortIndex, setSortIndex] = useState(2);
   const [orderIndex, setOrderIndex] = useState(1);
 
   const isInitial = useIsInitial();

@@ -1,5 +1,5 @@
 {
-  "homepage": "http://devanshdalal.github.io/",
+  "homepage": "http://devanshdalal.github.io",
   "name": "react-github-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "prettier": "prettier --config ./.prettierrc --write ./**/*.{jsx,js,md,css}",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build public -b master"
   },
   "lint-staged": {
     "**/*.{js,json,jsx,css,md}": [
