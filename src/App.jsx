@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     const fetchRepos = async () => {
       let fetchedRepos = await getRepositoriesCached();
-      setRepos(sort(fetchedRepos, 'stargazers_count', 'desc'));
+      setRepos(sort(fetchedRepos, 'created_at', 'desc'));
     };
 
     fetchRepos();
