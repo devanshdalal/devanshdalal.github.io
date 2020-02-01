@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
 
-import {DISPLAYNAME, GITUSER, LINKEDIN, STACKOVERFLOW, HACKERRANK, KAGGLE, RESEARCHGATE} from 'config.json'
+import {DISPLAYNAME, GITUSER, LINKEDIN, STACKOVERFLOW, HACKERRANK, KAGGLE, RESEARCHGATE, PERSONAS} from 'config.json'
 
 const AboutMe = () => {
 
@@ -28,7 +28,7 @@ const AboutMe = () => {
     return (
         <main className={styles[choice][0]}>
             <div className="intro">Hello, I'm {DISPLAYNAME}!</div>
-            <div className="tagline">All-Star Dev | Researcher | Hacker | Systems Fanatic </div>
+            <div className="tagline"> {PERSONAS.join(' | ')} </div>
             <div className={'icons-social ' + styles[choice][1]}>
             <a rel="noopener noreferrer" target="_blank" href={github}><i className="fab fa-github" /></a>
             <a rel="noopener noreferrer" target="_blank" href={LINKEDIN}><i className="fab fa-linkedin" /></a>

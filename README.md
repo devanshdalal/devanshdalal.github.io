@@ -1,4 +1,4 @@
-<p align="center"><img src="./repo_assets/logo.png" /></p>
+<p align="center"><img src="./public/logo.png" /></p>
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ Prettier is used for automatic code formatting. It's executed on every commit us
 
 ## Contributing
 
-Pull Requests and Suggestions are highly recommended. Use the [issues](https://github.com/KleoPetroff/react-github-portfolio/issues) section to submit a suggestion or report an issue or submit a [pull request](https://github.com/KleoPetroff/react-github-portfolio/pulls).
+Pull Requests and Suggestions are highly recommended.
 
 ## License
 
