@@ -1,3 +1,4 @@
+import bash_icon from 'images/icons/bash-icon.png'
 import cpp_icon from 'images/icons/cpp-icon.png'
 import css_icon from 'images/icons/css-icon.png'
 import default_icon from 'images/icons/default-icon.png'
@@ -9,6 +10,7 @@ import php_icon from 'images/icons/php-icon.png'
 import python_icon from 'images/icons/python-icon.png'
 import react_icon from 'images/icons/reactjs-logo.png'
 import jupyter_icon from 'images/icons/jupyter-icon.png'
+import tsql_icon from 'images/icons/tsql-icon.png'
 
 import lscache from 'lscache'
 
@@ -84,6 +86,10 @@ export function languageLogo(language) {
       return react_icon
     case "jupyter notebook":
       return jupyter_icon
+    case "shell":
+      return bash_icon
+    case "tsql":
+      return tsql_icon
     default:
       return default_icon
   }
