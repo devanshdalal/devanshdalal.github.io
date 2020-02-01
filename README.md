@@ -12,9 +12,9 @@ Make sure you have NodeJS (v13.0.1 or higher) and npm (v6.12.0 or higher) instal
 
 1.  Clone the repo.
 2.  Install all dependencies using `npm install`.
-3.  Change the user details in `config.json`. and the logo `public/favicon.ico`
+3.  Change the user details in `config.json`, and the logo `public/favicon.ico` as desired.
 3.  Start the project by running `npm start`.
-4.  Publish the changes to your github portfolio page using `npm run deploy`
+4.  Publish the changes to your github portfolio page using `npm run deploy`.
 
 ### Prettier and Precommit Hooks
 
