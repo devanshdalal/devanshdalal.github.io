@@ -1,5 +1,6 @@
 import bash_icon from 'images/icons/bash-icon.png'
 import cpp_icon from 'images/icons/cpp-icon.png'
+import chash_icon from 'images/icons/csharp-icon.png'
 import css_icon from 'images/icons/css-icon.png'
 import default_icon from 'images/icons/default-icon.png'
 import go_icon from 'images/icons/go-icon.png'
@@ -68,6 +69,8 @@ export function languageLogo(language) {
   switch(language) {
     case "c++":
       return cpp_icon
+    case "c#":
+      return chash_icon
     case "css":
       return css_icon
     case "go":
@@ -76,7 +79,7 @@ export function languageLogo(language) {
       return html_icon
     case "java":
       return java_icon
-    case "js":
+    case "javascript":
       return js_icon
     case "php":
       return php_icon
